@@ -9,5 +9,4 @@ src/com/moviejukebox/themoviedb/model/Country.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/MovieDB.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/Person.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/tools/LogFormatter.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/tools/XMLHelper.java -text svneol=unset#text/plain
 src/readme.txt -text svneol=unset#text/plain
