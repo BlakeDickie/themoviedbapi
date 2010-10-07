@@ -9,6 +9,7 @@ src/com/moviejukebox/themoviedb/model/Country.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/Filmography.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/MovieDB.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/Person.java -text svneol=unset#text/plain
+src/com/moviejukebox/themoviedb/model/Studio.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/tools/Base64.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/tools/DOMHelper.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/tools/DOMParser.java -text svneol=unset#text/plain
