@@ -17,3 +17,4 @@ src/com/moviejukebox/themoviedb/tools/ModelTools.java -text svneol=unset#text/pl
 src/com/moviejukebox/themoviedb/tools/MovieDbParser.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/tools/WebBrowser.java -text svneol=unset#text/plain
 src/readme.txt -text svneol=unset#text/plain
+test/com/moviejukebox/themoviedb/TheMovieDbTest.java -text
