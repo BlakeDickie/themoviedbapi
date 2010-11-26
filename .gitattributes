@@ -7,6 +7,7 @@ src/com/moviejukebox/themoviedb/model/Artwork.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/Category.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/Country.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/Filmography.java -text svneol=unset#text/plain
+src/com/moviejukebox/themoviedb/model/Language.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/MovieDB.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/Person.java -text svneol=unset#text/plain
 src/com/moviejukebox/themoviedb/model/Studio.java -text svneol=unset#text/plain
