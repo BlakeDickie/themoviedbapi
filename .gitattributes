@@ -1,21 +1,23 @@
 * text=auto !eol
 /.classpath -text svneol=unset#text/plain
 /.project -text svneol=unset#text/plain
-/build.xml -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/TheMovieDb.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/model/Artwork.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/model/Category.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/model/Country.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/model/Filmography.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/model/Language.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/model/MovieDB.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/model/Person.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/model/Studio.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/tools/Base64.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/tools/DOMHelper.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/tools/LogFormatter.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/tools/ModelTools.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/tools/MovieDbParser.java -text svneol=unset#text/plain
-src/com/moviejukebox/themoviedb/tools/WebBrowser.java -text svneol=unset#text/plain
-src/readme.txt -text svneol=unset#text/plain
-test/com/moviejukebox/themoviedb/TheMovieDbTest.java -text
+.settings/org.eclipse.jdt.core.prefs -text
+.settings/org.maven.ide.eclipse.prefs -text
+/pom.xml -text
+/readme.txt -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/TheMovieDb.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/model/Artwork.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/model/Category.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/model/Country.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/model/Filmography.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/model/Language.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/model/MovieDB.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/model/Person.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/model/Studio.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/tools/Base64.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/tools/DOMHelper.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/tools/LogFormatter.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/tools/ModelTools.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/tools/MovieDbParser.java -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/tools/WebBrowser.java -text svneol=unset#text/plain
+src/test/java/com/moviejukebox/themoviedb/TheMovieDbTest.java -text
