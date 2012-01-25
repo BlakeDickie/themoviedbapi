@@ -5,4 +5,36 @@
 .settings/org.maven.ide.eclipse.prefs -text
 /pom.xml -text
 /readme.txt -text svneol=unset#text/plain
+src/main/java/com/moviejukebox/themoviedb/TheMovieDB.java -text
+src/main/java/com/moviejukebox/themoviedb/model/AlternativeTitle.java -text
+src/main/java/com/moviejukebox/themoviedb/model/Artwork.java -text
+src/main/java/com/moviejukebox/themoviedb/model/ArtworkType.java -text
+src/main/java/com/moviejukebox/themoviedb/model/Collection.java -text
+src/main/java/com/moviejukebox/themoviedb/model/CollectionInfo.java -text
+src/main/java/com/moviejukebox/themoviedb/model/Genre.java -text
+src/main/java/com/moviejukebox/themoviedb/model/Keyword.java -text
+src/main/java/com/moviejukebox/themoviedb/model/Language.java -text
+src/main/java/com/moviejukebox/themoviedb/model/MovieDB.java -text
+src/main/java/com/moviejukebox/themoviedb/model/Person.java -text
+src/main/java/com/moviejukebox/themoviedb/model/PersonCast.java -text
+src/main/java/com/moviejukebox/themoviedb/model/PersonCrew.java -text
+src/main/java/com/moviejukebox/themoviedb/model/ProductionCompany.java -text
+src/main/java/com/moviejukebox/themoviedb/model/ProductionCountry.java -text
+src/main/java/com/moviejukebox/themoviedb/model/ReleaseInfo.java -text
+src/main/java/com/moviejukebox/themoviedb/model/StatusCode.java -text
+src/main/java/com/moviejukebox/themoviedb/model/TmdbConfiguration.java -text
+src/main/java/com/moviejukebox/themoviedb/model/Trailer.java -text
+src/main/java/com/moviejukebox/themoviedb/model/Translation.java -text
+src/main/java/com/moviejukebox/themoviedb/tools/ApiUrl.java -text
+src/main/java/com/moviejukebox/themoviedb/tools/FilteringLayout.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperAlternativeTitles.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperMovieCasts.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperMovieImages.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperMovieKeywords.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperReleaseInfo.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperResultList.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperTrailers.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperTranslations.java -text
 src/main/resources/bin.xml -text svneol=unset#text/plain
+src/main/resources/log4j.properties -text
+src/test/java/com/moviejukebox/themoviedb/TheMovieDBTest.java -text
