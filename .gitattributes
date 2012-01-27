@@ -14,6 +14,7 @@ src/main/java/com/moviejukebox/themoviedb/model/CollectionInfo.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Genre.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Keyword.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Language.java -text
+src/main/java/com/moviejukebox/themoviedb/model/MovieDb.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Person.java -text
 src/main/java/com/moviejukebox/themoviedb/model/PersonCast.java -text
 src/main/java/com/moviejukebox/themoviedb/model/PersonCredit.java -text
