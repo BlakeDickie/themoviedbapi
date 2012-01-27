@@ -5,7 +5,6 @@
 .settings/org.maven.ide.eclipse.prefs -text
 /pom.xml -text
 /readme.txt -text svneol=unset#text/plain
-src/main/java/com/moviejukebox/themoviedb/TheMovieDB.java -text
 src/main/java/com/moviejukebox/themoviedb/model/AlternativeTitle.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Artwork.java -text
 src/main/java/com/moviejukebox/themoviedb/model/ArtworkType.java -text
