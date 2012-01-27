@@ -41,5 +41,4 @@ src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperTrailers.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperTranslations.java -text
 src/main/resources/bin.xml -text svneol=unset#text/plain
 src/main/resources/log4j.properties -text
-src/test/java/com/moviejukebox/themoviedb/TheMovieDBTest.java -text
 src/test/java/com/moviejukebox/themoviedb/TheMovieDbTest.java -text
