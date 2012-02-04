@@ -29,6 +29,7 @@ src/main/java/com/moviejukebox/themoviedb/model/Trailer.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Translation.java -text
 src/main/java/com/moviejukebox/themoviedb/tools/ApiUrl.java -text
 src/main/java/com/moviejukebox/themoviedb/tools/FilteringLayout.java -text
+src/main/java/com/moviejukebox/themoviedb/tools/WebBrowser.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperAlternativeTitles.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperConfig.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperImages.java -text
