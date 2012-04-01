@@ -12,6 +12,7 @@ src/main/java/com/moviejukebox/themoviedb/model/Artwork.java -text
 src/main/java/com/moviejukebox/themoviedb/model/ArtworkType.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Collection.java -text
 src/main/java/com/moviejukebox/themoviedb/model/CollectionInfo.java -text
+src/main/java/com/moviejukebox/themoviedb/model/Company.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Genre.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Keyword.java -text
 src/main/java/com/moviejukebox/themoviedb/model/Language.java -text
@@ -32,6 +33,7 @@ src/main/java/com/moviejukebox/themoviedb/tools/ApiUrl.java -text
 src/main/java/com/moviejukebox/themoviedb/tools/FilteringLayout.java -text
 src/main/java/com/moviejukebox/themoviedb/tools/WebBrowser.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperAlternativeTitles.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperCompanyMovies.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperConfig.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperImages.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperMovieCasts.java -text
