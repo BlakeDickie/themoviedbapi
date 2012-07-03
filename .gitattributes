@@ -1,8 +1,6 @@
 * text=auto !eol
 /.classpath -text svneol=unset#text/plain
 /.project -text svneol=unset#text/plain
-.settings/org.eclipse.jdt.core.prefs -text
-.settings/org.maven.ide.eclipse.prefs -text
 /pom.xml -text
 /readme.txt -text svneol=unset#text/plain
 src/main/java/com/moviejukebox/themoviedb/MovieDbException.java -text
