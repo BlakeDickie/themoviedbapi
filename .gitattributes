@@ -38,12 +38,12 @@ src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperCompanyMovies.java -tex
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperConfig.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperGenres.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperImages.java -text
+src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperMovie.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperMovieCasts.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperMovieKeywords.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperPerson.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperPersonCredits.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperReleaseInfo.java -text
-src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperResultList.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperTrailers.java -text
 src/main/java/com/moviejukebox/themoviedb/wrapper/WrapperTranslations.java -text
 src/main/resources/bin.xml -text svneol=unset#text/plain
