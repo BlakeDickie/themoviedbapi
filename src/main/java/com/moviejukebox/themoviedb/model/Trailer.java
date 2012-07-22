@@ -12,7 +12,8 @@
  */
 package com.moviejukebox.themoviedb.model;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.codehaus.jackson.annotate.JsonAnySetter;
 
 /**
@@ -24,7 +25,7 @@ public class Trailer {
      * Logger
      */
 
-    private static final Logger LOGGER = Logger.getLogger(Trailer.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Trailer.class);
     /*
      * Website sources
      */

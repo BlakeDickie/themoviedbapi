@@ -12,7 +12,8 @@
  */
 package com.moviejukebox.themoviedb.model;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.codehaus.jackson.annotate.JsonAnySetter;
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.map.annotate.JsonRootName;
@@ -27,7 +28,7 @@ public class ProductionCompany {
      * Logger
      */
 
-    private static final Logger LOGGER = Logger.getLogger(ProductionCompany.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ProductionCompany.class);
     /*
      * Properties
      */

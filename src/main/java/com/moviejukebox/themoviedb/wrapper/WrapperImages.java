@@ -14,7 +14,8 @@ package com.moviejukebox.themoviedb.wrapper;
 
 import com.moviejukebox.themoviedb.model.Artwork;
 import java.util.List;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.codehaus.jackson.annotate.JsonAnySetter;
 import org.codehaus.jackson.annotate.JsonProperty;
 
@@ -27,7 +28,7 @@ public class WrapperImages {
      * Logger
      */
 
-    private static final Logger LOGGER = Logger.getLogger(WrapperImages.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(WrapperImages.class);
     /*
      * Properties
      */

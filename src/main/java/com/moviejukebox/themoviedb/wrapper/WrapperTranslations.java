@@ -14,7 +14,8 @@ package com.moviejukebox.themoviedb.wrapper;
 
 import com.moviejukebox.themoviedb.model.Translation;
 import java.util.List;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.codehaus.jackson.annotate.JsonAnySetter;
 
 /**
@@ -26,7 +27,7 @@ public class WrapperTranslations {
      * Logger
      */
 
-    private static final Logger LOGGER = Logger.getLogger(WrapperTranslations.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(WrapperTranslations.class);
     /*
      * Properties
      */

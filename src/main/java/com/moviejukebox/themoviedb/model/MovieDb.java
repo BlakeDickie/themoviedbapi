@@ -13,7 +13,8 @@
 package com.moviejukebox.themoviedb.model;
 
 import java.util.List;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.codehaus.jackson.annotate.JsonAnySetter;
 import org.codehaus.jackson.annotate.JsonProperty;
 
@@ -27,7 +28,7 @@ public class MovieDb {
     /*
      * Logger
      */
-    private static final Logger LOGGER = Logger.getLogger(MovieDb.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(MovieDb.class);
     /*
      * Properties
      */

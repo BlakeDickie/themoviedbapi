@@ -16,9 +16,10 @@ import com.moviejukebox.themoviedb.model.*;
 import java.io.IOException;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
 import org.junit.*;
 import static org.junit.Assert.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Test cases for TheMovieDb API
@@ -28,7 +29,7 @@ import static org.junit.Assert.*;
 public class TheMovieDbTest {
 
     // Logger
-    private static final Logger LOGGER = Logger.getLogger(TheMovieDbTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(TheMovieDbTest.class);
     // API Key
     private static final String API_KEY = "5a1a77e2eba8984804586122754f969f";
     private static TheMovieDb tmdb;
@@ -93,7 +94,7 @@ public class TheMovieDbTest {
 
         // Try a movie with more than 20 results
         movieList = tmdb.searchMovie("Star Wars", "en", false);
-        assertTrue("Not enough movies found, should be 20", movieList.size() == 20);
+        assertTrue("Not enough movies found, should be at least 19", movieList.size() >= 19);
     }
 
     /**

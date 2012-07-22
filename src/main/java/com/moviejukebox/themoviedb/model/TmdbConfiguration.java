@@ -14,7 +14,8 @@ package com.moviejukebox.themoviedb.model;
 
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.codehaus.jackson.annotate.JsonAnySetter;
 import org.codehaus.jackson.annotate.JsonProperty;
 
@@ -27,7 +28,7 @@ public class TmdbConfiguration {
     /*
      * Logger
      */
-    private static final Logger LOGGER = Logger.getLogger(TmdbConfiguration.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(TmdbConfiguration.class);
     /*
      * Properties
      */

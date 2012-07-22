@@ -24,8 +24,9 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * The MovieDb API
@@ -36,7 +37,7 @@ import org.codehaus.jackson.map.ObjectMapper;
  */
 public class TheMovieDb {
 
-    private static final Logger LOGGER = Logger.getLogger(TheMovieDb.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(TheMovieDb.class);
     private String apiKey;
     private TmdbConfiguration tmdbConfig;
     /*

@@ -11,26 +11,10 @@
         <maven>3.0.3</maven>
     </prerequisites>
 
-    <groupId>com.moviejukebox</groupId>
-    <artifactId>themoviedbapi</artifactId>
+    <groupId>net.landora</groupId>
+    <artifactId>themoviedbapi-gs</artifactId>
     <version>3.2-SNAPSHOT</version>
     <name>API-The MovieDB</name>
-
-    <issueManagement>
-        <system>Google Code</system>
-        <url>http://code.google.com/p/themoviedbapi/issues/list</url>
-    </issueManagement>
-
-    <ciManagement>
-        <system>Hudson CI</system>
-        <url>http://jenkins.omertron.com/job/API-TheMovieDb/</url>
-    </ciManagement>
-
-    <scm>
-        <connection>scm:svn:http://themoviedbapi.googlecode.com/svn/trunk/themoviedbapi</connection>
-        <developerConnection>scm:svn:https://themoviedbapi.googlecode.com/svn/trunk/themoviedbapi</developerConnection>
-        <url>http://code.google.com/p/themoviedbapi/source/browse/trunk/themoviedbapi</url>
-    </scm>
 
     <properties>
         <skipTests>false</skipTests>
@@ -50,6 +34,18 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.6.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.6.4</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
@@ -202,7 +198,7 @@
                         </goals>
                         <configuration>
                             <descriptors>
-                                <descriptor>src/main/resources/bin.xml</descriptor>
+                                <descriptor>src/main/distribution/bin.xml</descriptor>
                             </descriptors>
                         </configuration>
                     </execution>

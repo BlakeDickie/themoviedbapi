@@ -14,7 +14,8 @@ package com.moviejukebox.themoviedb.wrapper;
 
 import com.moviejukebox.themoviedb.model.PersonCredit;
 import java.util.List;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.codehaus.jackson.annotate.JsonAnySetter;
 import org.codehaus.jackson.annotate.JsonProperty;
 
@@ -27,7 +28,7 @@ public class WrapperPersonCredits {
      * Logger
      */
 
-    private static final Logger LOGGER = Logger.getLogger(WrapperMovieCasts.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(WrapperMovieCasts.class);
     /*
      * Properties
      */

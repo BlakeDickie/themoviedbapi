@@ -29,14 +29,15 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.apache.commons.codec.binary.Base64;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Web browser with simple cookies support
  */
 public final class WebBrowser {
 
-    private static final Logger LOGGER = Logger.getLogger(WebBrowser.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(WebBrowser.class);
     private static Map<String, String> browserProperties = new HashMap<String, String>();
     private static Map<String, Map<String, String>> cookies = new HashMap<String, Map<String, String>>();
     private static String proxyHost = null;

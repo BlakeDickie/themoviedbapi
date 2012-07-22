@@ -18,7 +18,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * The API URL that is used to construct the API call
@@ -30,7 +31,7 @@ public class ApiUrl {
     /*
      * Logger
      */
-    private static final Logger LOGGER = Logger.getLogger(ApiUrl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ApiUrl.class);
     /*
      * TheMovieDb API Base URL
      */
